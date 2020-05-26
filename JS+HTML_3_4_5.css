@@ -1,0 +1,36 @@
+.form {
+  width: 320px;
+  border: 1px solid #000;
+  padding: 1rem;
+}
+
+.form-field {
+  margin: 1rem 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: .25rem;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.succes {
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: .25rem;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
