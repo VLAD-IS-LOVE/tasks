@@ -15,17 +15,13 @@ class Person {
   }
   send() {
 
-
     let form = $('.form');
 
-
     let formMessages = $('#form-messages');
-
 
     $(form).submit(function(event) {
 
       event.preventDefault();
-
 
       let formData = $(form).serialize();
       console.log(formData);
@@ -39,9 +35,7 @@ class Person {
           $(formMessages).removeClass('error');
           $(formMessages).addClass('success');
 
-
           $(formMessages).text(response);
-
 
           $('#last-name').val('');
           $('#first-name').val('');
@@ -54,7 +48,6 @@ class Person {
           $(formMessages).removeClass('success');
           $(formMessages).addClass('error');
 
-
           if (data.responseText !== '') {
             $(formMessages).text(data.responseText);
           } else {
@@ -62,7 +55,6 @@ class Person {
           }
         });
     });
-
   }
 }
 
