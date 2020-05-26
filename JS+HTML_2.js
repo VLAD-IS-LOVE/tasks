@@ -1,3 +1,5 @@
+// Построить флаг РФ из символа “О” размером 60х80 символов
+
 document.body.style.background = 'black';
 
 let w = 80;
